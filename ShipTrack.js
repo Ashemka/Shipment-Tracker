@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Ship tracker Light
-// @namespace    http://tampermonkey.net/
+// @author       Ashemka
 // @version      1.1
 // @description  Extrait les informations de livraison des commandes Amazon et affiche les prévisions avec un code couleur cohérent. Inclut un bouton de synchronisation automatique des données.
 // @match        https://www.amazon.fr/vine/orders*
@@ -14,6 +14,8 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_listValues
 // @grant        window.close
+// @updateURL https://raw.githubusercontent.com/Ashemka/Shipment-Tracker/refs/heads/main/ShipTrack.js
+// @downloadURL https://raw.githubusercontent.com/Ashemka/Shipment-Tracker/refs/heads/main/ShipTrack.js
 // ==/UserScript==
 
 (function() {
